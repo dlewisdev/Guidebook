@@ -8,14 +8,33 @@
 import SwiftUI
 
 struct CityView: View {
+    
+    @State var cities = [City]()
+    var dataService = DataService()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack {
+            
+            ScrollView(showsIndicators: false) {
+                VStack {
+                    ForEach(cities) { city in
+                        NavigationLink {
+                            AttractionView(city: city)
+                        } label: {
+                           CityCard(city: city)
+                                .padding(.bottom, 20)
+                        }
+                    }
+                }
+                .padding(.horizontal)
+                
+            }
         }
-        .padding()
+        .ignoresSafeArea()
+        .onAppear {
+            cities = dataService.getData()
+        }
     }
 }
 
