@@ -18,6 +18,8 @@
 		719284AC2B28DE4700965797 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719284AB2B28DE4700965797 /* Attraction.swift */; };
 		719284AE2B28E6C700965797 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719284AD2B28E6C700965797 /* CityCard.swift */; };
 		719284B02B28E99300965797 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719284AF2B28E99300965797 /* AttractionRow.swift */; };
+		719284B22B290DD200965797 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 719284B12B290DD200965797 /* DemoData.json */; };
+		719284B42B294A6000965797 /* TextTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719284B32B294A6000965797 /* TextTransformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		719284AB2B28DE4700965797 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		719284AD2B28E6C700965797 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
 		719284AF2B28E99300965797 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
+		719284B12B290DD200965797 /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
+		719284B32B294A6000965797 /* TextTransformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTransformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,9 @@
 				719284A92B28DE0E00965797 /* City.swift */,
 				719284AD2B28E6C700965797 /* CityCard.swift */,
 				719284AB2B28DE4700965797 /* Attraction.swift */,
+				719284B32B294A6000965797 /* TextTransformation.swift */,
 				719284AF2B28E99300965797 /* AttractionRow.swift */,
+				719284B12B290DD200965797 /* DemoData.json */,
 				719284992B28D9D500965797 /* Assets.xcassets */,
 				7192849B2B28D9D500965797 /* Preview Content */,
 			);
@@ -147,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7192849D2B28D9D500965797 /* Preview Assets.xcassets in Resources */,
+				719284B22B290DD200965797 /* DemoData.json in Resources */,
 				7192849A2B28D9D500965797 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				719284982B28D9D400965797 /* CityView.swift in Sources */,
+				719284B42B294A6000965797 /* TextTransformation.swift in Sources */,
 				719284A62B28DD7900965797 /* DetailView.swift in Sources */,
 				719284B02B28E99300965797 /* AttractionRow.swift in Sources */,
 				719284AA2B28DE0E00965797 /* City.swift in Sources */,
